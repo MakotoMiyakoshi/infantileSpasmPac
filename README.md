@@ -1,9 +1,7 @@
 # infantileSpasmPac
-For the Miyakoshi et al. (under review) infantile spasm pipeline paper.
+This code is to preprocess the human scalp-recorded EEG data using artifact subspace reconstruction and independent component analysis to apply a phase-amplitude coupling analysis using Matlab software libraries. The order of the preprocessings is shown in the file names. The code has dependency on EEGLAB and the following plugins: PREP_Pipeline, PACT, DIPFIT, and ICLabel. For the Miyakoshi et al. (under review) infantile spasm pipeline paper.
 
 Reference: Makoto Miyakoshi, Hiroki Nariai, Rajsekar R. Rajaraman, Danilo Bernardo, Daniel W. Shrey, Beth A. Lopour, Myung Shin Sim, Richard J. Staba and Shaun A. Hussain. (202X). Automated preprocessing and phase-amplitude coupling analysis of scalp EEG discriminates infantile spasms from controls during wakefulness (under review)
-
-The order of the preprocessings is shown in the Matlab file names. The code had dependency on EEGLAB and the following plugins: PREP_Pipeline, PACT, DIPFIT, and ICLabel.
 
 Author: Makoto Miyakoshi, Swartz Center for Computational Neuroscience, Institute for Neural Computation, University of California San Diego.
 
